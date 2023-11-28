@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import GenericsButton from "@/components/GenericsButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,7 +22,8 @@ export default function Home() {
       /> */}
       {/* <Button onClick={onclick} /> */}
       {/* <Button>Click me</Button> */}
-      <Button type="submit" defaultValue="only" />
+      {/* <Button type="submit" defaultValue="only" /> */}
+      <GenericsButton countValue={2} countHistory={["2", 3]} />
     </main>
   );
 }
