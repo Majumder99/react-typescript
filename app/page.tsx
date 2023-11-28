@@ -19,7 +19,9 @@ export default function Home() {
           fontSize: 24,
         }}
       /> */}
-      <Button onClick={onclick} />
+      {/* <Button onClick={onclick} /> */}
+      {/* <Button>Click me</Button> */}
+      <Button type="submit" defaultValue="only" />
     </main>
   );
 }
